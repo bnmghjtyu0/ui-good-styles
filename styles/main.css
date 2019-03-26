@@ -1,0 +1,43 @@
+.good-btn-primary {
+  color: #22292f;
+  border: 1px solid #22292f;
+}
+
+.good-btn-primary:hover {
+  color: #328af1;
+  border-color: #328af1;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.good-shadow {
+  -webkit-box-shadow: 4px 4px 15px 0 rgba(36, 37, 38, 0.08);
+          box-shadow: 4px 4px 15px 0 rgba(36, 37, 38, 0.08);
+}
+
+.good-gradient-danger {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f44881), to(#ec454f));
+  background: linear-gradient(180deg, #f44881, #ec454f);
+}
+
+.good-gradient-success {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6edcc4), to(#1aab8b));
+  background: linear-gradient(180deg, #6edcc4, #1aab8b);
+}
+
+.good-gradient-info {
+  background: -webkit-gradient(linear, left bottom, left top, from(#f19a1a), to(#ffc73c));
+  background: linear-gradient(0deg, #f19a1a, #ffc73c);
+}
+
+.good-gradient-primary {
+  background: -webkit-gradient(linear, left top, left bottom, from(#21c8f6), to(#637bff));
+  background: linear-gradient(180deg, #21c8f6, #637bff);
+}
+
+.good-radius {
+  border-radius: 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */
