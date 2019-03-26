@@ -1,0 +1,23 @@
+@import "./components/button";
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.good-shadow {
+  box-shadow: 4px 4px 15px 0 rgba(36, 37, 38, 0.08);
+}
+.good-gradient-danger {
+  background: linear-gradient(180deg, #f44881, #ec454f);
+}
+.good-gradient-success {
+  background: linear-gradient(180deg, #6edcc4, #1aab8b);
+}
+.good-gradient-info {
+  background: linear-gradient(0deg, #f19a1a, #ffc73c);
+}
+.good-gradient-primary {
+  background: linear-gradient(180deg, #21c8f6, #637bff);
+}
+.good-radius {
+  border-radius: 0.5rem;
+}
