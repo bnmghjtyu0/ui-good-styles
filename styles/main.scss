@@ -1,4 +1,4 @@
-@import "./components/button";
+@import './components/button';
 
 .overflow-hidden {
   overflow: hidden;
@@ -20,4 +20,17 @@
 }
 .good-radius {
   border-radius: 0.5rem;
+}
+.good-lable {
+  padding: 0.475rem 2rem;
+  border-radius: 25px;
+}
+.good-lable-primary {
+  background-color: #f5f5f5;
+  color: #333;
+  &.active {
+    color:#fff;
+    background: linear-gradient(180deg, #21c8f6, #637bff);
+    box-shadow: 4px 4px 15px 0 rgba(36, 37, 38, 0.08);
+  }
 }
